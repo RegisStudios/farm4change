@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class OpenShiftController {
     @GetMapping("/test")
     public String test(){
-        return "<h1>Welcome to Spring boot from OpenShift</h1>";
+        return "<h2>Welcome to Farm4Change</h2><br><div>This is the test-server-page</div>";
     }
 }
